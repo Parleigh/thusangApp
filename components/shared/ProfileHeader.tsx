@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 interface Props {
-    acountId: string;
+    accountId: string;
     authUserId: string;
     name: string;
     username: string;
@@ -9,7 +9,7 @@ interface Props {
     bio: string;
 }
 
-const ProfileHeader = ({acountId, authUserId, name, username, imgUrl, bio }: Props) => {
+const ProfileHeader = ({accountId, authUserId, name, username, imgUrl, bio }: Props) => {
     return (
         <div className="flex w-full flex-col justify-start">
             <div className="flex items-center justify-between">
